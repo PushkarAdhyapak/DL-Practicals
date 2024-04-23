@@ -1,0 +1,10 @@
+In [20]:
+
+print(f"MAE is {metrics.mean_absolute_error(y_test, y_pred)}")
+print(f"Mse is {metrics.mean_squared_error(y_test,y_pred)}”)
+print(f"R2 score is {metrics.r2_score(y_test, y_pred)}")
+
+MAE is 5,003211559968837
+MSE is 38.54229852185281
+R2 score is 0.4586908770214073
+
